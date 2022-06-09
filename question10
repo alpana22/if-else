@@ -1,0 +1,8 @@
+cha=input("enter the cha")
+if cha>="A" and cha<="Z":
+    print("it is an upper case")
+elif cha>="a" and cha<="z":
+    print("it is an lower case")
+else:
+    print("it is an alphabet")
+    

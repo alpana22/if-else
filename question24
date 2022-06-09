@@ -1,0 +1,11 @@
+a=int(input("enter the age1"))
+b=int(input("enter the age2"))
+c=int(input("enter the age3"))
+if a>b and a<c and c<b and c<a:
+    print(a,"is oldest",c,"is youngest")
+elif b>c and b>a and a<b and a<c:
+    print(b,"is oldest",a,"is youngest")
+elif c>b and c>a and b<a and b<c:
+    print(c,"is oldest",b,"is youngrst")
+else:
+    print("non")

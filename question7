@@ -1,0 +1,5 @@
+char=input("enter the char")
+if char>="A" and char>="a" or char>="Z" and char>="z":
+    print("char is alphabet")
+else:
+    print("char is not alphabet")

@@ -1,0 +1,10 @@
+amount=int(input("enter the number"))
+if amount>5:
+    a=amount//2000
+    b=amount%200
+    c=b//100
+    d=b%100
+    e=d//10
+    print("note of 200=a","note of 100=c","note of 10=e")
+else:
+    print("not amount")

@@ -1,0 +1,5 @@
+a=int(input("enter the number"))
+if a>="o" and a<=9:
+    print("the string is integer")
+else:
+    print("the string is integer")

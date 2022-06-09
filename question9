@@ -1,0 +1,7 @@
+char=input("enter the number")
+if char>="A" and char>="a" or char>="Z" and char>="z":
+    print("it is an alphabet")
+elif char>="0" and char<="9":
+    print("char is digit")
+else:
+    print("char is special character")

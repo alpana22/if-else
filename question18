@@ -1,0 +1,22 @@
+from apt import print_function
+
+
+phy=int(input("enter the number"))
+che=int(input("enter the number"))
+bio=int(input("enter the number"))
+math=int(input("enter the number"))
+com=int(input("enter the number"))
+total=phy+che+bio+math+com
+per=415//5
+if per>=90:
+    print("grade a")
+elif per>=80:
+    print("grade b")
+elif per>=70:
+    print("grade c")
+elif per>=60:
+    print("grade d")
+elif per>=40:
+    print("grade e")
+else:
+    print("grade f")

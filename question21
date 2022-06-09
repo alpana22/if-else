@@ -1,0 +1,8 @@
+quantity=int(input("enter the number"))
+total_cost=quantity*100
+if quantity>1000:
+    discount=quantity*10/100
+    total_cost=quantity-discount
+    print("discount",total_cost)
+else:
+    print("non")

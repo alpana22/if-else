@@ -1,0 +1,5 @@
+water=int(input("enter the number"))
+if water>=100:
+    print("it is a boiling water")
+else:
+    print("it is not boiling water")

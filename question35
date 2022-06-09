@@ -1,0 +1,12 @@
+cp=int(input("enter the number"))
+if cp>100000:
+    tax=cp/100*15
+    print("tax",tax)
+elif cp>50000 and cp<=10000:
+    tax=cp/100*10
+    print("tax",tax)
+elif cp<=5000:
+    tax=cp/100*5
+    print("tax",tax)
+else:
+    print("no tax")

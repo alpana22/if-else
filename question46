@@ -1,0 +1,5 @@
+num=int(input("enter the number"))
+if num%7==0 and num%5==0 or num>=1500 and num<=2700:
+    print("num is divisible by 7 and 5")
+else:
+    print("num is not divisible by 7 and 5")

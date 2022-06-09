@@ -1,0 +1,15 @@
+unit=int(input("enter the number"))
+if unit>=1 and unit<=50:
+    bill=unit*0.5+20/100
+    print("electricity",bill)
+elif unit>=50 and unit<=151:
+    bill=unit*0.75/100
+    print("electricity",bill)
+elif unit>=151 and unit<=252:
+    bill=unit*1.20+20/100
+    print("electricity",bill)
+elif unit>250:
+    bill=unit*1.50+20/100
+    print("electricity",bill)
+else:
+    print("not bill")

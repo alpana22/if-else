@@ -1,0 +1,15 @@
+day=int(input("enter the number"))
+if day>=5:
+    amount=day*2
+    print("library charge",amount)
+elif day>=6 and day<=10:
+    amount=day*3
+    print("library charge",amount)
+elif day>=10 and day<=15:
+    amount=day*4
+    print("library charge",amount)
+elif day>=15:
+    amount=day*15
+    print("library charge",amount)
+else:
+    print("no charge")

@@ -1,0 +1,8 @@
+from re import I
+
+
+char=input("enter the char")
+if char=="A" or char=="a" or char=="E" or char=="e" or char=="I" or char=="i" or char=="O" or char=="o" or char=="U" or char=="u":
+    print("it is vowel")
+else:
+    print("it is consonant")

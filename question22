@@ -1,0 +1,8 @@
+salary=int(input("enter the number"))
+year=int(input("enter the number"))
+if year>5:
+    bonus=salary*5/100
+    amount=bonus+salary
+    print("net bonus",amount)
+else:
+    print("no net bonus")

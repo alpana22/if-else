@@ -1,0 +1,18 @@
+age=int(input("enter the age"))
+sex=input("enter the sex")
+wage=int(input("enter the wage"))
+if age>=18  and age<30 and sex=="m":
+    a=wage*700
+    print("total wage",a)
+elif age>18 and age<30 and sex=="f":
+    b=wage*750
+    print("total wage",b)
+elif age>=30 and age<=40 and sex=="m":
+    c=wage*800
+    print("total wage",c)
+elif age>30 and age<40 and sex=="f":
+    d=wage*850
+    print("total wage",d)
+else:
+    print("enter approprite age")
+

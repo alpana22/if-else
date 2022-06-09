@@ -1,0 +1,5 @@
+num=int(input("enter the number"))
+if num>=1 and num<=9:
+    print("guess")
+else:
+    print("not guess")

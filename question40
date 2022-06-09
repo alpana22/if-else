@@ -1,0 +1,12 @@
+num=int(input("entert the number"))
+if num>=100 and num<=999:
+    a=num//10
+    b=num%10
+    c=b//10
+    d=b%10
+    a=str(a)
+    c=str(c)
+    d=str(d)
+    print("it is a three digit number")
+else:
+    print("it is not thre digit number")
